@@ -1,0 +1,62 @@
+body {
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/mymoon.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.box {
+    background-image: url("./images/cartita.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 60px;
+    color: #1a1515;
+    width: 70%;
+    margin: 70vh auto;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 8px 5px 10px rgba(204, 190, 190, 0.5);
+}
+
+
+.box h3{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    padding: 10px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.box p{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-style: normal;
+    margin: 20px;
+    font-size: 17px;
+}
+
+.box h2 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    padding: 10px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-transform: uppercase;
+}
