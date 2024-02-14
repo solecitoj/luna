@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;    
+}
+
+.background-image {
+    position: relative;
+    background-image: url("./images/myheart.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.my-heart {
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    position: absolute; /* Position the heart relative to its closest positioned ancestor */
+    /* top: 52%;
+    left: 42%;
+    transform: translate(-50%, -50%); Center the heart */
+    top: calc(52% - 37.5px); /* Adjust top position to center the heart */
+    left: calc(42% - 37.5px); /* Adjust left position to center the heart */
+    transform: rotate(-45deg);
+    box-shadow: -10px 10px 90px #f20044;
+    animation: heart 0.9s linear infinite;
+}
+@keyframes heart{
+    0%{
+        transform: rotate(-45deg) scale(1.09);
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.2);
+    }
+    100%{
+        transform: rotate(-45deg) scale(0.9);
+    }
+}
+.my-heart:before{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    top: -50%;
+    border-radius: 50px;
+    box-shadow: -10px -10px 90px #f20044;
+    
+}
+
+.my-heart:after{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    right: -50%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 90px #f20044;
+    
+}
+
